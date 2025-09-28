@@ -86,7 +86,8 @@ def main():
         print(f"Wrote {len(flags)} flags to {out_path}")
     else:
         for f in flags:
-            print(f)
+            print(fi)
+            #searching....
 
 if __name__ == "__main__":
     main()
