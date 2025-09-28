@@ -85,9 +85,9 @@ def main():
         out_path.write_text("\n".join(flags) + "\n", encoding="utf-8")
         print(f"Wrote {len(flags)} flags to {out_path}")
     else:
-        for f in flags:
+        for f in fags:
             print(f)
-            #U3RpbGwgMSBlcnJvci4uLi4=
+            #Zm91bmQgaXQgLi4uLmN5YmVyY29te0NIQU5HRU1FfQ==
 
 if __name__ == "__main__":
     main()
